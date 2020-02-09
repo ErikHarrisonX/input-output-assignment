@@ -1,0 +1,77 @@
+(C++ Keywords)
+Asm - Keyword to invoke inline assembler and can appear whenever in C/C++. However, must be followed by assembly, instruction, or a group of instructions enclosed in braces.
+Auto - Specifies type of variable that’s being declared and will automatically deducted from its initializer.
+Bool - Used to declare variable’s value is set as true (1) or false (2).
+Break - Ends execution of nearest enclosing loop or conditional statement that it appears in.
+Case - Used to test variable equality for list of values, where each value is a case.
+Catch - Specifies type of exception handled.
+Char - Data type that holds one character (letter, number, etc.).
+Class - Building block of C++ and is a data type that holds its own data members and member functions kind of like a blueprint.
+Const -  A Variable that can be used for data like mathematical constants
+Const_cast - used to cast away the constness of variables.
+Continue - Forces the next iteration of the loop to take place skipping code in between.
+Default - Can be called with no arguments, defined with an empty parameter list.
+Delete - Operator that’s used to destroy array and non-array (pointer) objects created by new expression.
+Do - Used to iterate part of the program several times.
+Double - Represents fractional as well as whole values.
+Dynamic_cast - Converts from a pointer/reference to a base type to a pointer/references to a derived type.
+Else - Used to execute some statement code block if the expression is evaluated to true.
+Enum - User-defined data type that consists of integral constants.
+Explicit - Specifies that a constructor or conversion function cannot be used for implicit conversions and copy-initalization. May be used with a constant expression.
+Export - Marks a declarations, group of declarations or another module as exported by the current module. 
+Extern - Has 4 meanings depending on the context:a)In a non-const global variable – specifies that the variable or function is defined in another transational unit. b)In a const variable – specifies that the variable has external linkage.c)extern“C” – specifies that the function is defined elsewhere and uses the C-language calling convention. d)In a template declaration – specifies that template has already been instantiated elsewhere.
+False - One of the two bool constant or variables containing one of two values which would be 0.
+Float - Data type built into the compiler that’s used to define numeric values with decimal points.
+For - A loop for code that executes init-statement once, then statement and iteration_expression repeatedly until the value of condition becomes false.
+Friend - A function that has access to all private and protected members of the class.
+Goto - Statement that’s used to jump from within a function.
+If - A Boolean operator that allows for more complex conditional statements.
+Inline - A function that reduces the function call overhead.
+Int - A variable that is a number
+Long - An integer type.
+Mutable - Declares a data member to be modified even though part of an object declared as const.
+Namespace - Declarative region that provides a scope to identifiers inside.
+New - Construct that only allocates memory 
+Operator - A symbol that tells compiler to perform specific mathematical or logical manipulations.
+Private - Default access specifier for every declared data item in a class.
+Protected - Specifies access to class members in the member-list up to the next access specifier
+Public - Specifies members accessible from any function.
+Register - A request to the compiler that the specified variable has to stored.
+Reinterpret_cast - A type of operator used to convert one pointer of another pointer of any type, even if the class is related to each other or not.
+Return - When executed, function is terminated immediately at that point regardless of whether in the middle of a loop.
+Short - An integral type that’s larger or equal to size of type char, and shorter than/equal to size of type int.
+Signed - Indicates that a variable can hold negative and positive values.
+Sizeof - A compile-time operator that determines the size of a variable or data type.
+Static - Member shared by all objects of the class.
+Static_cast - A type casting operator implicit conversion between types (int to float, pointer to void), and explicit conversion functions.
+Struct - Collection of variables of different data types under a single name.
+Switch - Allows variable to be tested for equality against a list of values.
+Template - Blueprint or formula for creating a generic class or function.
+This - An implicit parameter to all member functions
+Throw - An exception specification that indicate programmer’s 
+True -  A bool constant or variable that contains one/two values
+Try - Block that contains statements which may generate exceptions.
+Typedef - Allows to create new names for types such as int, or, more commonly in C++. Can be used to provide clarity to code and easier for changes underlying data types.
+Typeid - Operator which returns type ID info at run time basically returns a type_info object.
+Typename - Keyword to create templates. Specifying name in template definition or declaration is a type.
+Union - User defined data type which can hold many members of different sizes/types. Single memory locations to hold more than 1 variable.
+Unsigned - Makes a variable ony represent positive numbers and zero. Can only be applied to char, short, int, long.
+Using - Brings member functions into scope.
+Virtual - Member function that you expect to be redefined in derived classes.
+Void - Used as a function/method return type, when the function isn’t supposed to return anything.
+Volatile - Intended to prevent compiler from applying any optimizations on objects that change that can’t be determined by compiler.
+Wchar_t - Compiler-dependent and not portable, large enough to hold single code point in one integer value. 
+While - Control flow statement that allows code to be executed repeatedly based on a given Boolean condition. Also used as a repeating if statement.
+
+C++ Reserved Words
+And - Alternative operator for &&, Performs logical conjunction of 2 expressions.
+And_eq - Alternative operator for &=, Bitwise and assigns
+Bitand - Alternative operator for &, returns memory location
+Bitor - Alternative operator for | , Binary and operator
+Compl - Alternative operator for ~, Binary one’s complement operator
+Not - Alternative operator for !, Not operator, performs logical disjunction on 2 expressions.
+Not_eq - Alternative operator for !=, Bitwise inclusive or and assigns.
+Or - Alternative operator for ||, or operator and performs logical disjunction on 2 expressions.
+Or_eq - Alternative operator for |=, Bitwise or and assigns
+Xor - Alternative operator for ^, Binary XOR operator
+Xor_eq - Alternative operator for ^=, Bitwise exclusive or and assigns.
